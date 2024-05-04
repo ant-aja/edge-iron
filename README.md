@@ -1,4 +1,4 @@
-# @ant-aja/edge-iron
+# @antaja/edge-iron
 A fork from @wunderwerk/edge-iron with merge code to reduce dependencies.
 
 **Edge-Runtime compatible port of [@hapi/iron](https://github.com/hapijs/iron).**
@@ -7,15 +7,16 @@ Run well on Cloudflare Pages/Workers, Vercel and browser.
 ## License
 MIT license
 - Credits to [hapi.dev](https://hapi.dev) for the initial implementation and 
-- Credits to [@wunderwerk/edge-iron](https://github.com/wunderwerkio/edge-iron) for porting to Edge-runtime 
+- Credits to [@wunderwerk/edge-iron](https://github.com/wunderwerkio/edge-iron) for porting to Edge-runtime.
+- Credit to Timkieu for fixing bugs by nodejs runtime.
 
 ## Install
 
-``` pnpm i @ant-aja/edge-iron ```
+``` pnpm i @antaja/edge-iron ```
 
-``` npm i @ant-aja/edge-iron ```
+``` npm i @antaja/edge-iron ```
 
-``` yarn add @ant-aja/edge-iron ```
+``` yarn add @antaja/edge-iron ```
 
 ## Example 
 
