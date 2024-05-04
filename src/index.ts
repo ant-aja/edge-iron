@@ -18,3 +18,14 @@ export const Iron = {
   seal,
   unseal
 }   ;
+
+
+export { 
+  defaults,
+  decrypt,
+  encrypt,
+  generateKey,
+  hmacWithPassword,
+  seal,
+  unseal
+}   ;

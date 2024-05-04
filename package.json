@@ -1,6 +1,6 @@
 {
   "name": "@antaja/edge-iron",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "CloudFlare Edge-Runtime compatible port of @hapi/iron based on a fork of @wunderwerk/edge-iron",
   "type": "module",
   "module": "./dist/index.d.ts",
