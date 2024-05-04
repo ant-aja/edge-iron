@@ -4,6 +4,12 @@
 "@ant-aja/edge-iron": major
 ---
 
+## 1.0.12
+
+### Major Changes
+
+- BAck to export individuals for easy minify import
+
 ## 1.0.10
 
 ### Major Changes
