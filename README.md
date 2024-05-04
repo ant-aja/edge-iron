@@ -12,7 +12,9 @@ MIT license
 ## Install
 
 ``` pnpm i @ant-aja/edge-iron ```
+
 ``` npm i @ant-aja/edge-iron ```
+
 ``` yarn add @ant-aja/edge-iron ```
 
 ## Example 
@@ -26,7 +28,6 @@ export async function session2cookie(session: SessionSandbox, ironPassword: stri
   const sealed = await Iron.seal(session, ironPassword, Iron.defaults);
   return sealed;
 }
-
 
 export async function cookie2session(cookie: string, ironPassword: string): Promise<SessionSandbox | undefined> {
   const unsealed = await Iron.unseal(cookie, ironPassword, Iron.defaults);
