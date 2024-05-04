@@ -1,4 +1,4 @@
-export { defaults as IronDefaults } from "./constants.js";
+import { defaults } from "./constants.js";
 
 import { decrypt } from "./decrypt.js";
 import { encrypt } from "./encrypt.js";
@@ -10,6 +10,7 @@ import { unseal } from "./unseal.js";
 export * from "./types.js";
 
 export const Iron = { 
+  defaults,
   decrypt,
   encrypt,
   generateKey,
