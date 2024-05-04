@@ -1,12 +1,12 @@
 {
   "name": "@antaja/edge-iron",
-  "version": "1.0.4",
-  "description": "Edge-Runtime compatible port of @hapi/iron and fork from @wunderwerk/edge-iron",
+  "version": "1.0.9",
+  "description": "CloudFlare Edge-Runtime compatible port of @hapi/iron based on a fork of @wunderwerk/edge-iron",
   "type": "module",
-  "module": "./dist/index.js",
+  "module": "./dist/index.d.ts",
   "types": "./dist/index.d.ts",
   "main": "./src/index.ts",
-  "browser": "dist/index.js",
+  "browser": "dist/index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
