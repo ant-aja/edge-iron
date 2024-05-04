@@ -12,7 +12,7 @@ export const hmacWithPassword = async (
 
   if (!globalThis.crypto) {
     // @ts-ignore
-    crypto = await import("crypto");
+    crypto = Crypto ;//await import("crypto");
   }
 
   const cryptoKey = await crypto.subtle.importKey(

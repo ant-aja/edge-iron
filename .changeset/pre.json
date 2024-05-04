@@ -1,8 +1,8 @@
 {
   "mode": "pre",
-  "tag": "alpha",
+  "tag": "release",
   "initialVersions": {
-    "@wunderwerk/edge-iron": "0.0.0"
+    "@antaja/edge-iron": "1.0.0"
   },
   "changesets": [
     "few-cheetahs-shave"

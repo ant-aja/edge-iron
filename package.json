@@ -1,15 +1,16 @@
 {
   "name": "@antaja/edge-iron",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Edge-Runtime compatible port of @hapi/iron and fork from @wunderwerk/edge-iron",
   "type": "module",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./src/index.ts",
-      "import": "./src/index.ts"
-    }
+  "main": "./src/index.ts",
+  "browser": "dist/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ant-aja/edge-iron.git"
   },
   "ava": {
     "files": [
@@ -52,5 +53,14 @@
     "README.md",
     "CHANGELOG.md",
     "LICENSE"
+  ],
+  "keywords": [
+    "iron",
+    "session",
+    "auth",
+    "authentication",
+    "encryption",
+    "token",
+    "crypto"
   ]
 }

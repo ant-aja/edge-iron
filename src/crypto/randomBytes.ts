@@ -8,7 +8,7 @@ import { Buffer } from "buffer";
 export const randomBytes = async (size: number): Promise<Buffer> => {
   if (!globalThis.crypto) {
     // @ts-ignore
-    globalThis.crypto = await import("crypto");
+    globalThis.crypto = Crypto ;//await import("crypto");
   }
 
   const array = new Uint8Array(size);

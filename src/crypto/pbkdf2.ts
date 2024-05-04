@@ -22,7 +22,7 @@ export const pbkdf2 = async (
 
   if (!globalThis.crypto) {
     // @ts-ignore
-    globalThis.crypto = await import("crypto");
+    globalThis.crypto = Crypto ;//await import("crypto");
   }
 
   const baseKey = await crypto.subtle.importKey(
